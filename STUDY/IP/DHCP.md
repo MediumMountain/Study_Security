@@ -12,8 +12,8 @@
 
 ## DHCPリレーエージェント
 
-![問題](../PICTURE/DHCP/DHCPパケットの問題点.png)
-![問題](../PICTURE/DHCP/DHCPリレーエージェント.png)
+![問題](../../PICTURE/DHCP/DHCPパケットの問題点.png)
+![問題](../../PICTURE/DHCP/DHCPリレーエージェント.png)
 
 ## DHCPメッセージ
 
@@ -59,6 +59,6 @@
 
 ## 問題メモ
 
-![問題](../PICTURE/DHCP/DHCP_1.png)
-![問題](../PICTURE/DHCP/DHCP_2.png)
-![問題](../PICTURE/DHCP/DHCP_3.png)
+![問題](../../PICTURE/DHCP/DHCP_1.png)
+![問題](../../PICTURE/DHCP/DHCP_2.png)
+![問題](../../PICTURE/DHCP/DHCP_3.png)
