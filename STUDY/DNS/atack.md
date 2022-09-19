@@ -38,3 +38,7 @@
 
 ![DNSリフレクタ攻撃](../../PICTURE/DNS/reflection.png)
 
+
+
+
+# Pass-the-Ticket攻撃
