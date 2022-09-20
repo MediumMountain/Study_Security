@@ -1,8 +1,12 @@
 # Active Directoryとは
+- Windowsのユーザ管理の仕組みには、以下の2つがある
+    - ワークグループ認証
+    - ドメイン認証
+- ドメイン認証の仕組みを使ったのがActive Directory。
+- ドメイン内の機器やユーザを一括管理することができる。
 
 ## REFERENCE
 https://qiita.com/salmonosushi/items/cfa59f01fd2f71880084
-
 
 
 ## Golden Ticket (ゴールデンチケット)
