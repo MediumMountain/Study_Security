@@ -12,3 +12,4 @@
 
 # BASIC認証 【基本認証】 basic authentication / ベーシック認証 / HTTP基本認証
 - Webコンテンツの送受信などに用いられるプロトコル（通信規約）HTTP（Hypertext Transfer Protocol）の利用者認証の方式の一つで、最も単純で基本的なもの。
+
