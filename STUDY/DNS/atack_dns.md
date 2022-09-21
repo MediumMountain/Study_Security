@@ -36,9 +36,20 @@
 
 - 攻撃の踏み台として、インターネットで公開されているDNSサーバのうち、外部からの問い合わせに答えてしまう不適切な設定のオープンリゾルバや、ある特定のドメイン名の管理権限を持ち外部からの問い合わせに答えなければならない権威DNSサーバが狙われる。  
 
-![DNSリフレクタ攻撃](../../PICTURE/DNS/reflection.png)
+![DNSリフレクタ攻撃](../../PICTURE/DNS/attack/reflection.png)
 
 
 
 
 # Pass-the-Ticket攻撃
+
+
+# Smurf攻撃 【Smurf attack】
+- 特定のコンピュータに繋がるかどうか確認する「ping」コマンドで使われるパケットの送信元を偽装し、標的に向けて大量のパケットを送りつける攻撃手法。
+    - pingコマンドの仕様では、ICMP（Internet Control Message Protocol）というプロトコルを用いる。
+    - 疎通確認したい相手に「エコーリクエスト」（echo request）というパケットを送り、相手は「エコーリプライ」（echo reply）パケットを送り返す。
+- 標的となったコンピュータやその所属するネットワークに過重な負荷をかけ、正常な通信ができない状態に陥らせるDoS攻撃の一種である。
+
+
+![](../../PICTURE/DNS/attack/smurf_01.png)
+![](../../PICTURE/DNS/attack/smurf_02.png)

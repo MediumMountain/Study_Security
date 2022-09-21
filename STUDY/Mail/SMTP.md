@@ -52,6 +52,7 @@
 - 電子メールを受信者へ送り届ける機能を持ったサーバ（コンピュータおよびソフトウェア）
 - IMAP4（Internet Mail Access Protocol versison 4）という通信プロトコル（通信規約）に従って利用者のソフトウェアと通信するもの
 
+![](../../PICTURE/Mail/IMAP4.png)
 
 
 
