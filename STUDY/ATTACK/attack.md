@@ -52,3 +52,6 @@
 
 
 
+# RAT 【Remote Administration Tool】 Remote Access Trojan / 遠隔操作ウイルス
+
+# 水飲み場型攻撃 【watering hole attack】
