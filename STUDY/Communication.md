@@ -1,6 +1,7 @@
 # EAP 【Extensible Authentication Protocol】 PPP EAP
 - 二地点間の接続の確立に用いられるPPP（Point-to-Point Protocol）の拡張仕様で、様々な認証方式を利用する手順を定めたもの。
 - LAN上で認証を行う方式を定めたIEEE 802.1Xにも標準の認証手順として採用された。
+- IEEE 802.1Xで用いられる認証プロトコル
 
 ![](../PICTURE/Communication/EAP.png)
 
