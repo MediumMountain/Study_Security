@@ -25,7 +25,10 @@
 ### UDPフラッド攻撃
 - 攻撃対象を機能不全に陥らせるDoS（Denial of Service）攻撃の一つで、標的に偽の送信元IPアドレスやランダムな宛先ポート番号を設定したUDPデータグラムを大量に送りつける攻撃。
 
-# 
+
+![](../../PICTURE/DNS/attack/flood_01.png)
+![](../../PICTURE/DNS/attack/flood_02.png)
+
 
 
 # DNSリフレクター攻撃 【DNS reflector attack】 DNSアンプ攻撃
