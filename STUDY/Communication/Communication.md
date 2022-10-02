@@ -16,6 +16,9 @@
 
 
 # PPPoE「PPP over Ethernet」
+
+![](../../PICTURE/OTHER/PPPoE.png)
+
 # PPPoA「PPP over ATM」
 
 # SLIP (Serial Line Internet Protocol)
