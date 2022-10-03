@@ -73,3 +73,14 @@
 # SHA-256 【Secure Hash Algorithm 256-bit】
 - 任意の長さの原文から固定長の特徴的な値を算出するハッシュ関数（要約関数）の一つ。
 - どんな長さの原文からも256ビットのハッシュ値を算出することができる。
+
+
+
+# CRYPTREC 【Cryptography Research and Evaluation Committees】
+- 政府機関で利用すべき暗号技術の推奨リストを作成するプロジェクト。
+- 総務省、経済産業省、情報通信研究機構（NICT）、情報処理推進機構（IPA）が共同で運営している。
+- 共通鍵暗号（秘密鍵暗号）や公開鍵暗号、ハッシュ関数、暗号利用モード、メッセージ認証コードなど暗号に関連する技術に関して、暗号技術の専門家が安全性や利用実績、調達の容易さなどを多角的に評価・検討する。
+
+![](../../PICTURE/cryptograph/CRYPTREC_01.png)
+![](../../PICTURE/cryptograph/CRYPTREC_02.png)
+![](../../PICTURE/cryptograph/CRYPTREC_03.png)

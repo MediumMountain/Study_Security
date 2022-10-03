@@ -16,6 +16,10 @@
 - システム間がSAMLで連携することにより、利用者が一つのユーザーアカウントやログイン手順で様々なシステムやサービスを横断的に使用できるシングルサインオン（SSO：Single Sign-On）やID連携（ID federation）を実現することができる。
 
 
+![](../../PICTURE/Authentication/SAML_01.png)
+![](../../PICTURE/Authentication/SAML_02.png)
+
+
 
 # BASIC認証 【基本認証】 basic authentication / ベーシック認証 / HTTP基本認証
 - Webコンテンツの送受信などに用いられるプロトコル（通信規約）HTTP（Hypertext Transfer Protocol）の利用者認証の方式の一つで、最も単純で基本的なもの。
