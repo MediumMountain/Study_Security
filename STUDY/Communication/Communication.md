@@ -4,6 +4,7 @@
 - IEEE 802.1Xで用いられる認証プロトコル
 
 ![](../../PICTURE/Communication/EAP.png)
+![](../../PICTURE/Communication/EAP_01.png)
 
 # PPP 【Point-to-Point Protocol】
 - 標準的な通信プロトコルの一つで、二台の機器の間で仮想的な専用の伝送路を確立し、相互に安定的にデータの送受信を行うことができるようにするもの。

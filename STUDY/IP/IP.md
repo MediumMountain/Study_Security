@@ -19,3 +19,42 @@
 - UDPでのデータの送信単位は「データグラム」（UDPデータグラム）で、前半8バイトが制御情報を記したヘッダ、残りの後半部分が伝送するデータ本体（アプリケーション層から伝送を依頼されたデータ）であるペイロードとなる。ヘッダ構造は極めてシンプルで、先頭から2バイトずつ送信元ポート番号、宛先ポート番号、（データグラム全体の）データ長、チェックサム（誤り検出符号）となっている。
 
 - UDPはインターネット開発の初期に考案され、1980年にRFC 768として標準化された。高信頼性のTCP（Transmission Control Protocol）と共に主要なトランスポート層プロトコルとして広く普及している。標準的なアプリケーション層プロトコルはTCPを利用するものが多いが、DNSやSNMP、DHCP、NTPなどがUDPを利用することでよく知られる。動画や音声のストリーミング配信などはUDPを用いることが多い。
+
+
+
+# TCP【Transmission Control Protocol】
+- インターネットなどのIPネットワークで、IP（Internet Protocol）の上位層であるトランスポート層のプロトコル（通信規約）として標準的に使われるものの一つ。
+- 信頼性が高いが即時性や高速性は得られにくい。
+
+
+
+
+
+
+
+# IPsec 【Security Architecture for Internet Protocol】
+- インターネットなどのTCP/IPネットワークで暗号通信を行うための通信規約（プロトコル）の一つ。
+- いくつかの要素技術の組み合わせとして実現され、通信相手を確認して成りすましを防止したり通信途上での改竄を防止するAH（Authentication Header）、伝送するデータの暗号化を行うESP（Encapsulated Security Payload）、公開鍵暗号を用いて安全に暗号鍵の交換・共有を行うIKE（Internet Key Exchange）などが利用される。
+
+
+![](../../PICTURE/IP/IPSec_01.png)
+![](../../PICTURE/IP/IPSec_02.png)
+
+
+## ESP (Encapsulated Security Payload)
+
+
+
+
+## AH (Authentication Header：認証ヘッダ)
+
+
+
+
+
+## SA (Security Association：セキュリティアソシエーション)
+
+
+
+
+## IKE (Internet Key Exchange)
