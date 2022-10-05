@@ -265,3 +265,12 @@
 # デジタルフォレンジック 【digital forensics】/コンピュータフォレンジック / computer forensics
 - 犯罪捜査や法的紛争などで、コンピュータなどの電子機器に残る記録を収集・分析し、その法的な証拠性を明らかにする手段や技術の総称。
 - “forensics”には「法医学」「科学捜査」「鑑識」といった意味があり、分かりやすく意訳すれば「デジタル鑑識」。
+
+
+
+### RLO 【Right-to-Left Override】
+- Unicodeで定義されている制御文字の一つで、横書きの文字の流れを「右から左」に変更するもの。
+
+![](../../PICTURE/Attack/RLO_01.png)
+![](../../PICTURE/Attack/RLO_02.png)
+![](../../PICTURE/Attack/RLO_03.png)
