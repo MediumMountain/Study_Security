@@ -24,6 +24,9 @@
     - OCSPレスポンダは認証局に設置される場合と、認証局からCRLを受け取りOCSP応答に専念する検証局（VA：Validation Authority）により提供される場合がある。
 
 
+![](../../PICTURE/cryptograph/signature/OCSP.png)
+
+
 ## 認証局（CA：Certificate Authority）
 - 電子商取引事業者などに、暗号通信などで必要となるデジタル証明書を発行する機関。
 - 認証局にはルート認証局（root CA）と中間認証局（intermediate CA）がある。
@@ -132,3 +135,36 @@
 ![](../../PICTURE/Attack/MITB_01.png)
 ![](../../PICTURE/Attack/MITB_02.png)
 ![](../../PICTURE/Attack/MITB_03.png)
+
+
+
+
+## XML署名 【XML Signature】 XMLデジタル署名 / XML-DSig
+- デジタル署名をXML形式で記述し、対象の文書が改竄されていないか、作成者が署名者本人に間違いないかなどを確認できるようにする技術。最初の規格は2001年にW3Cによって標準化された。
+    - XML文書にディジタル署名を埋め込む仕様
+    - 完全性、認証、否認防止などのセキュリティ機能を提供
+
+
+- 署名者は自身の暗号鍵ペアと署名対象データを元にハッシュ値（ダイジェスト）を算出し、Signature要素および子要素の組み合わせによって署名データを記述する。
+- 受信者は受け取ったデータからハッシュ値を算出して照合することで、対象データの改竄やすり替え、署名者のなりすましが行われていないか検証することができる。
+
+- 署名の形式は以下の３つ
+
+### 「デタッチ署名」（detached signature）
+- 対象データとは別にXML署名を作成する形式で、署名内から対象データをURI（Uniform Resource Identifier）で指定する。
+
+
+### 「エンベロープ署名」（enveloped signature）
+- 任意のXML文書の一部にXML署名を埋め込む形式
+
+
+
+### 「エンベローピング署名」（enveloping signature）
+- XML署名の要素の一部として対象データを埋め込む形式
+
+
+
+![](../../PICTURE/cryptograph/signature/XML_Signature_01.png)
+![](../../PICTURE/cryptograph/signature/XML_Signature_02.png)
+![](../../PICTURE/cryptograph/signature/XML_Signature_03.png)
+![](../../PICTURE/cryptograph/signature/XML_Signature_04.png)

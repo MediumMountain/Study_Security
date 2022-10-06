@@ -45,6 +45,7 @@ www.example.jp. IN A 198.51.100.0
 
 ## MX(Mail Exchange)レコード
 - メールの送信に使用するサーバーのレコードを指定する。
+    - ドメインのメールサーバを指定する。
     - 「～@example.jp」宛のメールは「mail.example.jp」へ送信せよ、という意味
 
 ```
@@ -55,7 +56,8 @@ example.jp. IN MX 10 mail.example.jp.
 - 一般的にMXレコードでは複数のサーバーを優先順位を指定した上で設定し、最も優先順位の高いサーバーと通信ができなかった場合は、次に優先順位の高いサーバーに通信を行う。
 
 
-
+![](../../PICTURE/DNS/MXrecord_01.png)
+![](../../PICTURE/DNS/MXrecord_02.png)
 
 
 ## TXTレコード
