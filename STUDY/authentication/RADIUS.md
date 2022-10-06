@@ -1,3 +1,6 @@
+![](../../PICTURE/Authentication/radius_01.png)
+![](../../PICTURE/Authentication/radius_02.png)
+
 # RADIUSサーバ 【RADIUS server】
 - RADIUS（Remote Authentication Dial-In User Service）
 - 登録利用者の認証情報を管理し、認証を実行する機器にRADIUSという通信規約（プロトコル）に基づいて機能を提供するサーバ。大規模なネットワークで利用される。

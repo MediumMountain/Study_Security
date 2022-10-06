@@ -103,6 +103,16 @@
 ![](../../PICTURE/Authentication/AAA_02.png)
 
 
+
+## IEEE 802.11
+- 無線LAN用セキュリティ規格
+- ワイヤレスLAN上での認証と暗号方式、暗号化通信のための動的なキーの生成、及び配送を行う仕組みの規定
+
+
+![](../../PICTURE/Authentication/IEEE_802_11_01.png)
+![](../../PICTURE/Authentication/IEEE_802_11_02.png)
+
+
 # OAuth
 - 運営主体の異なる複数のWebサイトやネットサービス、ソフトウェアなどの間で、データや機能へのアクセス権限の認可（authorization）情報を送受信するためのプロトコル（通信規約）の一つ。
 
