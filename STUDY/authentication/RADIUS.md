@@ -1,8 +1,19 @@
+# RADIUS 【Remote Authentication Dial-In User Service】
+- ネットワーク上で利用者の認証や権限の付与、利用状況の記録などを行うための通信プロトコルの一つ。
+- RADIUSサーバとRADIUSクライアントの間の通信方式を規定したもので、利用者の情報はRADIUSサーバが一元的に管理し、クライアントからの要求に応じて認証の可否や資源へのアクセスの可否などを通知する。
+
+    - 「RADIUSクライアント」とは末端の利用者からの接続を受け付けるルータやリモートアクセスサーバ、ダイヤルアップサーバなどのことを意味し、利用者との間でPAP、CHAP、EAPなどの認証プロトコルで認証情報のやりとりを行う。
+    - RADIUSクライアントと利用者側の端末などの間の認証方式はRADIUSでは特に定めていない。
+    - 利用者から見ると、認証サーバが2階層の構成になっており、サーバ間の通信方式を定めたのがRADIUSであるとも言える。
+
+    - RADIUSの通信はIP（Internet Protocol）とUDPを用いて行われ、RADIUSクライアントからRADIUS要求パケットを送信し、サーバがRADIUS応答パケットを返信するという形で認証が行われる。
+    - パスワードなど秘密の情報は共通鍵暗号（共通鍵暗号）により暗号化されて送受信される。
+
+
 ![](../../PICTURE/Authentication/radius_01.png)
 ![](../../PICTURE/Authentication/radius_02.png)
 
 # RADIUSサーバ 【RADIUS server】
-- RADIUS（Remote Authentication Dial-In User Service）
 - 登録利用者の認証情報を管理し、認証を実行する機器にRADIUSという通信規約（プロトコル）に基づいて機能を提供するサーバ。大規模なネットワークで利用される。
 
 
