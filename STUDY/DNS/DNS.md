@@ -84,6 +84,14 @@
     - 一つのIPアドレスに複数のホスト名を列挙して対応付けることもできる。
 
 
+
+## FQDN 【Fully Qualified Domain Name】 完全修飾ドメイン名 / 絶対ドメイン名
+- インターネットなどにおけるドメイン名の表記法の一つで、トップレベルドメイン（TLD）から順番に、サブドメイン名やホスト名など各階層を省略せずにすべて指定した形式のこと。
+- 他の表記法と区別してFQDNであることを明示したい場合は「www.example.co.jp.」のように末尾にドット「.」をつける。
+
+
+
+
 # DNSSEC 【DNS Security Extension】
 - インターネット上のドメイン名とIPアドレスの変換などを行なうDNS（Domain Name System）において、DNSサーバからの応答が正当なものであることを確認する方式を定めた規格。
 
@@ -105,3 +113,8 @@
 ![](../../PICTURE/DNS/DNSSEC.png)
 ![](../../PICTURE/DNS/DNSSEC_01.png)
 ![](../../PICTURE/DNS/DNSSEC_02.png)
+
+
+
+# BIND 【Berkeley Internet Name Domain】 named / ISC BIND
+- 最も広く普及しているDNSサーバソフトウェアの一つ。

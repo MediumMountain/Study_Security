@@ -26,3 +26,9 @@
 ## WPA2 【Wi-Fi Protected Access2】
 - 無線LAN（Wi-Fi）上で通信を暗号化して保護するための技術規格の一つで、WPAの後継。
 - また、通信機器などが同規格に準拠していることを認定する認
+
+
+# Enhanced Open
+- パスワードでの認証なしに公衆無線LANにおける端末とアクセスポイントとの間の無線通信を暗号化する仕組み
+
+![](../../PICTURE/Communication/Enhanced_Open.png)

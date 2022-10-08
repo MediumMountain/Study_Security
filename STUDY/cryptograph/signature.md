@@ -6,6 +6,8 @@
 - 受信者が署名を検証するには送信者の公開鍵が必要だが、インターネットなど信頼できない経路で伝送すると攻撃者によるすり替えの危険があるため、公開鍵データに送信者と受信者の双方が信用する第三者のデジタル署名を添付するという手法が考案された。これをデジタル証明書（公開鍵証明書）と呼び、信頼できる第三者を認証局（CA：Certificate Authority）という。
 
 
+![](../../PICTURE/cryptograph/signature/digital_certificate.png)
+
 ![](../../PICTURE/cryptograph/signature/TimeStamp_01.png)
 ![](../../PICTURE/cryptograph/signature/TimeStamp_02.png)
 
