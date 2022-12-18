@@ -6,6 +6,10 @@
 - 「ICMPメッセージ」と呼ばれる短いメッセージを送受信して相手方へ問い合わせや通知を行なうことができる。よく使われるメッセージには、通信可能なら応答するよう要求する「エコー要求」（echo request）や、それに対する返答である「エコー応答」（echo reply）、相手方に到達できない場合にその理由を経路途中のルータなどが送信元に知らせる「到達不能通知」（destination unreachable）などがある。
 
 
+https://www.infraexpert.com/study/tcpip4.html
+
+
+
 # UDP 【User Datagram Protocol】
 - インターネットなどのIPネットワークで、IP（Internet Protocol）の上位層であるトランスポート層のプロトコル（通信規約）として標準的に使われるものの一つ。シンプルで低遅延だが信頼性は低い。
 
