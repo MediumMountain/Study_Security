@@ -16,7 +16,7 @@
 - 通信の暗号化には共通鍵暗号の有力な標準規格であるAES（Advanced Encryption Standard）を採用し、一定の通信量ごとに暗号鍵を切り替えるなどして盗聴を防止する。
 
 
-# WPA 【Wi-Fi Protected Access】
+## WPA 【Wi-Fi Protected Access】
 - 無線LAN（Wi-Fi）上で通信を暗号化して保護するための技術規格の一つで、WEPの代替を企図したもの。
 - また、通信機器などが同規格に準拠していることを認定する認証制度。業界団体のWi-Fi Allianceが運用している。
 
