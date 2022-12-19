@@ -26,6 +26,23 @@
 ## WPA2 【Wi-Fi Protected Access2】
 - 無線LAN（Wi-Fi）上で通信を暗号化して保護するための技術規格の一つで、WPAの後継。
 - また、通信機器などが同規格に準拠していることを認定する認証制度。
+- 業界団体のWi-Fi Allianceが運用している。
+
+
+## WPA3【Wi-Fi Protected Access 3】
+- 無線LAN（Wi-Fi）上で通信を暗号化して保護するための技術規格の一つで、WPA2の後継。
+- また、通信機器などが同規格に準拠していることを認定する認証制度。
+- 業界団体のWi-Fi Allianceが2018年6月に発表した。
+
+- 基本的な仕様はWPA2に則っており、いくつかの機能が拡張・強化されている。
+- WPA3対応機器は古いWPA2対応機器とはWPA2を用いて通信することができる。
+- 新たに策定された仕様はWPA3対応機器間でのみ利用できる。
+
+- WPA2およびWPAと同様に、個人・家庭・小規模事業所向けの「WPA3-Personal」（WPA3-SAE/パーソナルモード）と、IEEE 802.1X認証サーバにより利用者や端末の認証を行う大規模ネットワーク向けの「WPA3-Enterprise」（WPA3-EAP/エンタープライズモード）の二つを選択できる。
+
+- パーソナルモードではWPA2までの事前共有鍵（PSK：Pre-Shared Key）方式を改め、利用者の入力したパスワードから一定の手順で算出した値と乱数を用い、楕円曲線暗号によって認証を行う「SAE」（Simultaneous Authentication of Equals）方式が採用された。
+- エンタープライズモードでは新たな暗号スイートであるCSNA（Commercial National Security Algorithm）を採用し、192ビット安全性を実現している。
+
 
 
 # Enhanced Open
