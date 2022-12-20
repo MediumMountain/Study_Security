@@ -1,3 +1,8 @@
+# NISC【National center of Incident readiness and Strategy for Cybersecurity】
+- 日本政府の内閣官房に設置された、国の機関における情報セキュリティを所管する組織。
+- 国のサイバー攻撃対策の司令塔。内閣官房組織令に基づき設置され、センター長は内閣官房副長官補が兼務する。
+
+
 # SECURITY ACTION
 - 中小企業が情報セキュリティ対策に自ら取り組んでいることを宣言する制度。
 - 経済産業省の外郭団体、情報処理推進機構（IPA）が推進している。
