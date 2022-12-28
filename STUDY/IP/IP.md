@@ -112,3 +112,12 @@ https://www.infraexpert.com/study/tcpip4.html
 
     - このような利用形態を「anonymous FTP」と呼び、誰でも任意のパスワード（空欄でもよい）で接続して（管理者がanonymousアカウントに設定した権限に応じて）ファイルの送受信を行うことができる。
     - 20世紀にはインターネット上のフリーソフトウェアの配布などでよく利用された。
+
+
+
+# DSCP【Differentiated Services Code Point】DiffServeコードポイント
+- DiffServを利用してIPパケットの優先度制御（QoS）を行う際に、パケットの優先度を表す値のこと。
+- 6ビットで表され、64段階の優先度を指定することができる。
+- 伝送するIPデータグラムを優先度に応じてクラス分けした値を意味し、IPヘッダの8ビット目から8ビットあるTOS（Type Of Service）フィールドのうち、先頭6ビットを利用して64段階の値を設定できる。
+- この領域を「DSフィールド」（DiffServ field）と呼ぶこともある。
+- DiffServ非対応の機器では先頭3ビットがIP Precedence（IP優先度）として解釈される。
