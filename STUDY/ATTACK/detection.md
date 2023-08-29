@@ -28,3 +28,15 @@
 ![](../../PICTURE/Attack/detection_01.png)
 ![](../../PICTURE/Attack/detection_02.png)
 ![](../../PICTURE/Attack/detection_03.png)
+
+
+
+CVE(共通脆弱性識別子)は、一般に知られている個々の脆弱性ごとに採番された識別子です。世界各国の製品開発企業、セキュリティ関連企業、脆弱性検査ツールや脆弱性対策情報提供サービスにおいて、脆弱性を識別するために使用されています。採番の形式は CVE-[西暦年号]-[4桁以上の数字] です。
+CCE(Common Configuration Enumeration)
+CCE(共通セキュリティ設定)は、コンピュータのセキュリティ設定項目ごとに付けられた識別子です。
+CVE(Common Vulnerabilities and Exposures)
+正しい。CVEは、脆弱性ごとに付けられている識別子です。
+CVSS(Common Vulnerability Scoring System)
+CVSS(共通脆弱性評価システム)は、情報システムの脆弱性の深刻度を同一の基準のもとで定量的に評価する共通的な手法です。
+CWE(Common Weakness Enumeration)
+CWE(共通脆弱性タイプ)は、ソフトウェアの脆弱性の種類を識別するための共通基準です。

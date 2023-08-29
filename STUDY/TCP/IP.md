@@ -7,7 +7,9 @@ https://www.itmanage.co.jp/column/tcp-ip-protocol/
 
 
 
-
+## NTP
+- Network Time Protocolの略。
+- ネットワークに接続されている環境において、機器が持つ時計を正しい時刻(協定世界時:UTC)へ同期するための通信プロトコル
 
 
 
