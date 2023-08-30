@@ -25,7 +25,8 @@
 - 既知のウイルスに含まれる特徴的なコード断片が含まれていないかを調べる「パターンマッチング法」では検知できない新種のウイルスや既存ウイルスの一部が改変された亜種、静的ヒューリスティック法での検知が難しいミューテーション型（ポリモーフィック型）などにも対応することができる。
 
 
-![](https://github.com/MediumMountain/Study_Security/PICTURE/Attack/detection_01.png)
+![](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/Attack/detection_01.png)
+
 ![](../../PICTURE/Attack/detection_02.png)
 ![](../../PICTURE/Attack/detection_03.png)
 
