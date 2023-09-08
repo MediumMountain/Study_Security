@@ -81,10 +81,12 @@
 - サイバー攻撃から企業を守る観点で、経営者が認識する必要のある「3原則」、及び経営者が情報セキュリティ対策を実施する上での責任者となる担当幹部(CISO等)に指示すべき「重要10項目」をまとめたものです。
 - 具体的には、経営者のリーダーシップの下での体制整備と対策の進め方、社会やステークホルダーに対する情報開示のあり方などが取りまとめられています。
 
+https://www.meti.go.jp/policy/netsecurity/mng_guide.html
+
 
 ![サイバーセキュリティ経営ガイドライン](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/OTHER/Cyber_security_management_guidelines_1.png)
 ![サイバーセキュリティ経営ガイドライン](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/OTHER/Cyber_security_management_guidelines_2.png)
-
+![サイバーセキュリティ経営ガイドライン](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/OTHER/Cyber_security_management_guidelines_3.png)
 
 
 
