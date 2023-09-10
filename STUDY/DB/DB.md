@@ -18,24 +18,55 @@
 
 # 正規化
 
-第1正規化
-繰り返し項目をなくす
-第2正規化
-主キーの一部によって一意に決まる属性を別表に移す
-第3正規化
-主キー以外の属性によって一意に決まる属性を別表に移す
+- 第1正規化
+    - 繰り返し項目をなくす
+- 第2正規化
+    - 主キーの一部によって一意に決まる属性を別表に移す
+- 第3正規化
+    - 主キー以外の属性によって一意に決まる属性を別表に移す
+
+
+![正規化](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/DB/normalization_1.png)
+![正規化](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/DB/normalization_2.png)
+
+
+
+## CASCADE
+- 参照される側の行が削除・更新された場合、それを参照する側の行も同時に削除・更新する指定です。
+
+## INTERSECT（共通）
+- 2つの関係に共通集合を得る演算
+- 複数の表から両方に共通する行を抽出する集合演算を行うSQL文です。積集合を求めるのに使います。
+
+## RESTRICT
+- 参照制約性を損なう削除や更新処理の要求に対して、データ更新または削除を禁止する指定です。
+
+## UNIQUE
+- データベースにデータを追加したり更新する際に、列や列のグループに格納される値が表内のすべての行で一意となるように制限する指定です。
+
+
+![DataBase](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/DB/DataBase.png)
 
 
 
 
-CASCADE
-正しい。CASCADEは、参照される側の行が削除・更新された場合、それを参照する側の行も同時に削除・更新する指定です。
-INTERSECT
-INTERSECTは、複数の表から両方に共通する行を抽出する集合演算を行うSQL文です。積集合を求めるのに使います。
-RESTRICT
-RESTRICTは、参照制約性を損なう削除や更新処理の要求に対して、データ更新または削除を禁止する指定です。
-UNIQUE
-UNIQUEは、データベースにデータを追加したり更新する際に、列や列のグループに格納される値が表内のすべての行で一意となるように制限する指定です。
+## UNION（和）
+- 2つの関係の和集合を得る演算
+
+
+## CROSS JOIN（直積）
+- 2つの関係に存在する行のすべての組み合わせを得る演算
+
+## INNER JOIN（内部結合）
+- 2つの関係を共通する属性で結び付ける演算
+
+
+![DB_SELECT](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/DB/DB_SELECT_1.png)
+![DB_SELECT](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/DB/DB_SELECT_2.png)
+![DB_SELECT](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/DB/DB_SELECT_3.png)
+
+
+
 
 
 
