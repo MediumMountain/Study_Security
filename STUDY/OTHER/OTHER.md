@@ -89,9 +89,22 @@ https://www.meti.go.jp/policy/netsecurity/mng_guide.html
 ![サイバーセキュリティ経営ガイドライン](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/OTHER/Cyber_security_management_guidelines_3.png)
 
 
+##　サイバーセキュリティ基本法
+- 日本国におけるサイバーセキュリティに関する施策の推進にあたっての基本理念、及び国及び地方公共団体の責務等を明らかにし、サイバーセキュリティ戦略の策定その他サイバーセキュリティに関する施策の基本となる事項を定めた法律
 
+この法律の第2条においてサイバーセキュリティの対象となる情報は  
 
+```
+「電磁的方式により記録され、又は発信され、伝送され、若しくは受信される情報」
+```
 
+と定義され、サイバーセキュリティとは  
+
+```
+「それらの情報の安全性・信頼性を確保するために必要な措置が講じられ、適切に維持されていること」
+```
+
+と規定されています。  
 
 # CVSS (Common Vulnerability Scoring System)
 - 情報システムの脆弱性に対するオープンで汎用的な評価方法
