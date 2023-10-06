@@ -195,7 +195,7 @@
 ## UNIQUE
 - データベースにデータを追加したり更新する際に、列や列のグループに格納される値が表内のすべての行で一意となるように制限する指定です。
 
-
+![DataBase](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/DB/DataBas_e.png)
 ![DataBase](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/DB/DataBase.png)
 
 
@@ -208,6 +208,11 @@
 ## CROSS JOIN（直積）
 - 2つの関係に存在する行のすべての組み合わせを得る演算
 
+- 直積(cartesian product)
+![直積](https://github.com/MediumMountain/Study_Security/blob/main/PICTURE/DB/cartesian_product.png)
+
+
+
 ## INNER JOIN（内部結合）
 - 2つの関係を共通する属性で結び付ける演算
 
@@ -219,10 +224,18 @@
 
 
 
+## べき等(Idempotent)
+- 同一の操作を複数回実行した結果と，一回しか実行しなかった結果が同一になる操作
+- コンピュータサイエンスの世界で使われる言葉で、ある操作を1回実行しても複数回実行しても結果が同じになる性質です。
+- 主要なデータ操作SQL文のうち、SELECTと障害回復時のUNDO・REDOはべき等、INSERT・UPDATE・DELETEはべき等ではありません。
 
 
-
-
+トランザクション内の全ての処理が成功したか，何も実行されなかったかのいずれかの結果にしかならない操作
+原子性の説明です。
+一つのノードへのレコードの挿入処理を，他のノードでも実行する操作
+レプリケーションの説明です。
+複数のトランザクションを同時に実行した結果と，順番に実行した結果が同一になる操作
+直列化可能または一貫性の説明です。
 
 
 ## ２相コミットメント
